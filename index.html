@@ -36,8 +36,10 @@
         }
 
         header {
-            background-color: var(--amber);
-            color: var(--charcoal);
+            background-color: var(--charcoal);
+            background-image: radial-gradient(rgba(255, 255, 255, 0.07) 1.5px, transparent 1.5px);
+            background-size: 22px 22px;
+            color: white;
             padding: 40px;
             text-align: center;
         }
@@ -63,8 +65,12 @@
             font-size: 0.95em;
         }
 
+        .contact-info {
+            color: #E8E2DA;
+        }
+
         .contact-info a {
-            color: var(--charcoal);
+            color: var(--amber);
             font-weight: 600;
             text-decoration: underline;
             text-underline-offset: 3px;
@@ -84,6 +90,15 @@
 
         .btn:hover {
             background-color: #4A423B;
+        }
+
+        header .btn {
+            background-color: var(--amber);
+            color: var(--charcoal);
+        }
+
+        header .btn:hover {
+            background-color: var(--amber-dark);
         }
 
         .btn-amber {
